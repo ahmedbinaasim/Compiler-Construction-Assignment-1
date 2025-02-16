@@ -1,0 +1,31 @@
+#* 
+   Test program in AA language
+   Demonstrates all language features
+*#
+
+# Global variables
+@int maxcount = 100;
+@dec pi = 3.14159;
+
+# Local variables
+int count = 0;
+dec result = 0.0;
+bool flag = true;
+char symbol = 'x';
+str message = "Hello, World!";
+
+# Input operations
+out "Enter a number: ";
+in count;
+
+# Calculations
+result = count * pi / 2.0;
+
+# Output operations
+out "Result is: ";
+outln result;
+
+# Conditional value
+bool isvalid = count < maxcount;
+
+#* End of program *#
